@@ -1,0 +1,41 @@
+/********************
+  MEDIA QUERIES vars
+********************/
+// width
+$layout-breakpoint-x-large: 1300px;
+$layout-breakpoint-m-l-large: 1240px;
+$layout-breakpoint-m-m-large: 1150px;
+$layout-breakpoint-m-large: 1080px;
+$layout-breakpoint-large: 1020px;
+$layout-breakpoint-m-medium: 930px;
+$layout-breakpoint-medium: 820px;
+$layout-breakpoint-small: 660px;
+$layout-breakpoint-m-m-small: 550px;
+$layout-breakpoint-m-small: 485px;
+$layout-breakpoint-x-small: 350px;
+
+* {
+    font-family: 'Kalam', cursive;
+    font-weight: 100;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h1,
+h2,
+h3 {
+    color: #757575;
+    margin: 0px auto;
+    text-align: center;
+}
+
+body {
+    background: rgb(235, 235, 235);
+}
