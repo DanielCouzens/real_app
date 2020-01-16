@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="scss/styles.css" />
+    <!-- <link rel="stylesheet" href="scss/media.css" /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Kalam:700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <title>Song Structure</title>
+  </head>
+
+  <body>
+    <div class="title-top"><h1 class="page-title">Chord Charts</h1></div>
+
+    <div class="cont">
+      <div class="btns">
+        <button class="clear-c">Clear</button>
+        <button class="printBtn" onclick="prints()">Print</button>
+        <button class="whiteBtn">Tidy</button>
+        <form id="add-section">
+          <div class="music_cont">
+            <button class="music-btn">New</button>
+          </div>
+        </form>
+      </div>
+
+      <form id="song-title-form">
+        <div class="song_cont">
+          <input id="song-title" type="text" placeholder="Song Title" />
+          <button class="t-btn">Add</button>
+        </div>
+      </form>
+
+      <div class="time-sig-cont">
+        <form id="time-sig-form-top">
+          <div class="input-top">
+            <input id="time-sig-input-top" type="text" placeholder="4/4" />
+            <button class="time-sig-btn-T">Add</button>
+          </div>
+        </form>
+
+        <form id="time-sig-form-bot">
+          <div class="input-bottom">
+            <input id="time-sig-input-bot" type="text" placeholder="120" />
+            <button class="time-sig-btn-B">Add</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="new_song_title">
+      <div class="sigs-div"></div>
+      <div class="song-title-div"></div>
+      <div class="tempo-div"></div>
+      <!-- dynamic js title will go here -->
+    </div>
+
+    <div class="chart">
+      <!-- dynamic chords will go here -->
+    </div>
+
+    <script src="song.js"></script>
+    <script src="songTitle.js"></script>
+  </body>
+</html>
+
+<div class="top-dashboard"></div>

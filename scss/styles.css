@@ -1,0 +1,488 @@
+* {
+  font-family: 'Kalam', cursive;
+  font-weight: 100;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #757575;
+  margin: 0px auto;
+  text-align: center;
+}
+
+body {
+  background: #ebebeb;
+}
+
+.cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cont-action,
+.cont {
+  background: #ffffff;
+  width: 80%;
+  margin: 30px auto;
+  padding: 15px;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+  border-radius: 0px;
+}
+
+.title-top {
+  width: 80%;
+  background: #fff;
+  padding: 15px;
+  margin: 30px auto;
+  border-radius: 0px;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+}
+
+h2 {
+  height: 27px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#song {
+  border: 1px solid rgba(93, 93, 93, 0.6);
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 20px 30px 0;
+  -webkit-box-shadow: 2px 2px 1px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 2px 2px 1px 1px rgba(50, 50, 50, 0.2);
+}
+
+.song-title {
+  position: relative;
+  top: 30px;
+}
+
+.clear-chord,
+.clear-songs {
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  font-size: 1.3rem;
+  border: none;
+  background: #3a004a;
+  color: #fff;
+  display: block;
+  padding: 0px 0;
+  margin: 20px 30px;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+}
+
+.clear-chord {
+  display: inline-block;
+}
+
+.clear-songs:hover {
+  background: #8900ae;
+}
+
+.chart_cont,
+.music-cont,
+#add-secton {
+  display: inline-block;
+  background: #f6f5f7;
+  padding: 5px;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+}
+
+.clear_all_print_all {
+  margin: 0 30px;
+}
+
+.input-song {
+  margin-top: 20px;
+}
+
+#time-sig-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#time-sig-input-top,
+#time-sig-input-bot {
+  margin: 3px;
+  width: 40px;
+}
+
+.time-sig-btn {
+  display: inline-block;
+}
+
+#time-sig-input-bot,
+#time-sig-input-top,
+#music-input,
+#add-music,
+#add-chord,
+#song-title {
+  font-size: 1rem;
+}
+
+#Song-Title,
+#Chord {
+  margin: 0;
+}
+
+.chart {
+  width: 80%;
+  background: #fff;
+  padding: 15px;
+  margin: 0px auto;
+}
+
+.new-section-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.new-section-chords {
+  background: rgba(37, 0, 50, 0.04);
+  display: -ms-grid;
+  display: grid;
+  padding: 22px 0;
+  grid-row-gap: 22px;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  border-bottom: 1px solid #bbb;
+}
+
+#result {
+  text-align: center;
+  width: 30%;
+  color: #fff;
+  display: block;
+  margin: 10px auto;
+}
+
+.song_cont {
+  margin-top: 14px;
+  padding: 12px;
+  background: #f6f5f7;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+}
+
+.btn-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-wrap .inner-btn-wrap {
+  background: #f6f5f7;
+  -webkit-box-shadow: 2px 2px 1px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 2px 2px 1px 1px rgba(50, 50, 50, 0.2);
+  padding: 5px 65px;
+}
+
+.btns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  grid-gap: 3px;
+}
+
+.editChordsBtn,
+.newBtn,
+.section-delete-btn,
+.time-sig-btn-B,
+.time-sig-btn-T,
+.test-btn,
+.whiteBtn,
+.new-section-btn,
+.m-btn,
+.printBtn,
+.music-btn,
+.clear-c,
+.c-btn,
+.t-btn,
+.btn {
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0px;
+  width: 55px;
+  height: 55px;
+  background: #729aff;
+  color: #fff;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  outline: none;
+}
+
+.newBtn {
+  margin: 0 auto;
+}
+
+#time-sig-form-bot {
+  margin-top: 3px;
+}
+
+.section-delete-btn {
+  margin: 0 auto;
+}
+
+.editChordsBtn:hover,
+.newBtn:hover,
+.section-delete-btn:hover,
+.time-sig-btn-B:hover,
+.time-sig-btn-T:hover,
+.test-btn:hover,
+.whiteBtn:hover,
+.new-section-btn:hover,
+.m-btn:hover,
+.printBtn:hover,
+.music-btn:hover,
+.clear-c:hover,
+.c-btn:hover,
+.t-btn:hover,
+.btn:hover {
+  background: #8900ae;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+/* deleted cross for song title */
+.deleted-cross {
+  font-size: 0.5rem;
+  padding: 2px 4px;
+}
+
+.js-time-sig-top,
+.tempo {
+  font-size: 1.5rem;
+}
+
+.new_song_title h1 {
+  margin: 0;
+}
+
+.new_song_title {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 70% 15%;
+      grid-template-columns: 15% 70% 15%;
+  padding: 0px 15px;
+  background: #fff;
+  font-size: 3rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.editChordsForm {
+  position: relative;
+  background: #fff;
+  bottom: 60px;
+  left: 25%;
+  width: 131px;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+}
+
+.editChordsBtn {
+  margin: 14px;
+  height: 30px;
+  padding: 0;
+}
+
+.editChordInput {
+  width: 30px;
+  height: 25px;
+  margin: 14px 0 14px 14px;
+  padding: 0;
+}
+
+.sigs-div {
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+.tempo-div {
+  margin: 20px 0 0;
+  text-align: center;
+}
+
+.bars {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 24px 45px;
+      grid-template-rows: 24px 45px;
+  border-left: 2px solid #000;
+  background: #fff;
+  padding: 7px 0;
+  margin-bottom: 10p;
+  border-bottom: 1px solid #777;
+  border-top: 1px solid #777;
+}
+
+.bars:nth-child(4n) {
+  border-right: 2px solid #000;
+}
+
+.editOptions {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  background: #25003212;
+  margin: 2px;
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+          box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+}
+
+/* delete-cross for chord and section title */
+.delete-cross,
+.edit,
+.remove-cross,
+.repeatEnd,
+.repeatBegin {
+  cursor: pointer;
+  margin: 0 auto;
+  -webkit-transition: 650ms;
+  transition: 650ms;
+  width: 20px;
+  height: 20px;
+}
+
+.repeatEnd:hover,
+.repeatBegin:hover {
+  color: #a805ff;
+  -webkit-transform: rotate(-1440deg);
+          transform: rotate(-1440deg);
+  font-size: 1.5rem;
+  padding: 0px 7px 13px 7px;
+  /* border-radius: 50%; */
+  background: #fff;
+}
+
+.fa {
+  cursor: pointer;
+  -webkit-transition: 650ms;
+  transition: 650ms;
+}
+
+.fa:hover {
+  color: #a805ff;
+  -webkit-transform: rotate(1440deg);
+          transform: rotate(1440deg);
+  font-size: 1.5rem;
+}
+
+.chordCont {
+  height: 45px;
+  text-align: center;
+}
+
+.chord-wrap {
+  display: table;
+  width: 100%;
+}
+
+.chord-name {
+  font-size: 28px;
+}
+
+.repeatSymbol {
+  position: relative;
+  bottom: 52px;
+  left: 4px;
+  border-left: 2px solid #000;
+  height: 60px;
+  width: 10px;
+}
+
+/* repeat symbol is appended when the chord cont is created to help with layout. JS just displays this div as flex when the repeat EndBtn is clicked */
+.repeatSymbolEnd {
+  position: relative;
+  bottom: 45px;
+  right: 4px;
+  float: right;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 2px solid #000;
+  height: 45px;
+  width: 10px;
+}
+
+#circleTop,
+#circleBot,
+#circleTopEnd,
+#circleBotEnd {
+  font-size: 0.5rem;
+  position: relative;
+}
+
+#circleBot,
+#circleBotEnd {
+  bottom: 5px;
+}
+
+.timesRepeat {
+  position: relative;
+  bottom: 84px;
+  background: #ffffff;
+  color: red;
+  left: 4px;
+  font-size: 1.5rem;
+  width: 27px;
+  height: 27px;
+}
+/*# sourceMappingURL=styles.css.map */
