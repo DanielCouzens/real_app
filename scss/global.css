@@ -24,6 +24,9 @@ h3 {
 }
 
 body {
-  background: #ebebeb;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#bf4999), to(#f7165b));
+  background-image: linear-gradient(to bottom right, #bf4999, #f7165b);
+  background-repeat: none;
+  height: 100vh;
 }
 /*# sourceMappingURL=global.css.map */

@@ -31,11 +31,17 @@
 
 .title-top {
     width: 80%;
-    background: #fff;
+    // background: #fff;
     padding: 15px;
     margin: 30px auto;
-    border-radius: 0px;
-    box-shadow: 3px 3px 5px 1px rgba(50, 50, 50, 0.2);
+
+    h1,
+    p {
+        text-align: center;
+        color: #fff;
+    }
+
+
 
     @media (max-width: $layout-breakpoint-medium) {
         width: 95%;
@@ -60,7 +66,7 @@ h2 {
 
 .song-title {
     position: relative;
-    top: 30px;
+    top: 18px;
 }
 
 .clear-chord,

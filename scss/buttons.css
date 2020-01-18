@@ -49,26 +49,23 @@
   cursor: pointer;
   font-size: 1rem;
   border: none;
-  border-radius: 0px;
+  border-radius: 5px;
   width: 55px;
   height: 55px;
-  background: #729aff;
+  background: #461d39;
   color: #fff;
   -webkit-transition: 200ms;
   transition: 200ms;
   outline: none;
 }
 
+.section-delete-btn,
 .newBtn {
-  margin: 0 auto;
+  margin: 6px auto;
 }
 
 #time-sig-form-bot {
   margin-top: 3px;
-}
-
-.section-delete-btn {
-  margin: 0 auto;
 }
 
 .editChordsBtn:hover,
